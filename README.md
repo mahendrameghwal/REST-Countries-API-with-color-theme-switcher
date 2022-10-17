@@ -5,7 +5,7 @@
 
 - Dark and LIght mode enabaled and disabled and toggle theme
 - know about all country
-- fully responsive 
+-  responsive 
 
 - search any country 🔍
 - filter by region ☑
