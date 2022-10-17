@@ -11,3 +11,7 @@
 - Dark and LIght mode enabaled and disabled and toggle theme
 - know about all country
 - fully responsive 
+
+- search any country 🔍
+- filter by region ☑
+- tap to additional information about all country
