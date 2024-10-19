@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 /* Global Styles */
-/* Global Styles */
 :root {
   --Light-Mode-Background: hsl(0, 0%, 98%);
   --light-mode-element: hsl(0, 0%, 100%);
@@ -14,7 +13,6 @@
   --light-mode-text: hsl(200, 15%, 8%);
   --dark-mode-background: hsl(207, 26%, 17%);
   --dark-mode-element: hsl(209, 23%, 22%);
-  --dark-mode-text: hsl(0, 0%, 98%);
 }
 
 body {
@@ -191,9 +189,24 @@ header {
 }
 
 
+/* Global Styles */
+:root {
+  --Light-Mode-Background: hsl(0, 0%, 98%);
+  --light-mode-element: hsl(0, 0%, 100%);
+  --light-mode-input: hsl(0, 0%, 52%);
+  --light-mode-text: hsl(200, 15%, 8%);
+  --dark-mode-background: hsl(207, 26%, 17%);
+  --dark-mode-element: hsl(209, 23%, 22%);
+  --dark-mode-text: hsl(0, 0%, 98%);
+}
 
-
-
+body {
+  background-color: var(--Light-Mode-Background);
+  color: var(--light-mode-text);
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  transition: background-color 0.3s ease;
+}
 
 .dark-mode {
   background-color: var(--dark-mode-background);
@@ -238,19 +251,6 @@ header {
 .dark-mode .modal-content {
   background-color: var(--dark-mode-element);
 }
-
-
-.dark-mode .dropdown-btn {
-  background-color: var(--dark-mode-background) !important;
-  border: 1px solid rgb(34, 34, 34);
-}
-.dark-mode .dropshow{
-  background-color: var(--dark-mode-background) !important;
-}
-.dark-mode .dropshow > p:hover {
-  background-color: var(--dark-mode-element);
-}
-
 
 .close-btn {
   float: right;
